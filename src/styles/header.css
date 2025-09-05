@@ -1,0 +1,55 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(45, 46, 48);
+}
+
+.list {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    font-family: fantasy;
+    color: white;
+    font-style: italic;
+    list-style: none;
+}
+
+.menu-btn {
+  display: none; /* oculto en PC */
+  font-size: 22px;
+  background: none;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+@media (max-width: 520px) {
+    .list {
+        display: none; /* ocultamos menú en móvil */
+        flex-direction: column;
+        background: rgb(30, 30, 30);
+        position: absolute;
+        top: 40px;
+        right: 0;
+        width: 200px;
+        border-radius: 8px;
+    }
+
+    .list.show {
+        display: flex; /* se muestra al presionar el botón */
+    }
+
+    .menu-btn {
+        display: block; /* botón visible en móvil */
+        width: 100vw;
+        height: 100px;
+    }
+}
+
+@media (min-width: 600px) and (max-width: 1400px) {
+    .container {
+        width: 100vw;
+        height: 150px;
+    }
+}
