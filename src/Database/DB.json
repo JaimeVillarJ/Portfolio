@@ -31,6 +31,10 @@
     ],
     "certificates" : [
         {
+            "name" : "Ingenieria de Sistemas",
+            "image" : "ing_sistemas"
+        },
+        {
             "name" : "Javascript",
             "image" : "javascript"
         },
@@ -38,5 +42,6 @@
             "name" : "Css",
             "image" : "css"
         }
+        
     ]
 }

@@ -5,10 +5,13 @@
     align-items: center;
     gap: 40px;
     padding: 50px;
-    grid-column: 2; /* segunda columna */
-    grid-row: 2;    /* segunda fila */
-    background-color: rgb(0, 0, 0);
+    grid-column: 2;
+    grid-row: 2;
+    background: radial-gradient(circle at 20% 30%, rgba(255, 76, 76, 0.2), transparent 60%),
+                radial-gradient(circle at 80% 70%, rgba(76, 150, 255, 0.2), transparent 60%),
+                #0f0f0f;
 }
+
 
 .title {
     display: block;
@@ -42,7 +45,7 @@
 }
 
 /* 📱 Vista móvil */
-@media (max-width: 800px) {
+@media (max-width: 900px) {
     .projects {
         flex-direction: column;
     }

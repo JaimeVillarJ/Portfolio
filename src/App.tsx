@@ -4,6 +4,7 @@ import { Header } from "./components/Header";
 import { Projects } from "./components/Projects";
 import { Route, Routes } from "react-router-dom";
 import { Certificates } from "./components/Certificates";
+import { Experience } from "./components/Experience";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Projects />} />
           <Route path="/certificates" element={<Certificates />} />
+          <Route path="/experience" element={<Experience />} />
         </Routes>
       </div>
     </div>

@@ -7,7 +7,7 @@ export const Certificates = () => {
 
     return (
         <div className="container-certificates">
-            <h1 className="title-certificates">Certificaciones</h1>
+            <h1 className="title-certificates">Diploma y Certificaciones</h1>
             {images.map((item) => (
                 <>
                     <h1 className="language">{item.name}</h1>

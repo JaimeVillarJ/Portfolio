@@ -2,7 +2,9 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgb(45, 46, 48);
+    background: linear-gradient(145deg, #0a0a0a, #1a1a1a); /* fondo con volumen */
+    box-shadow: 0 4px 12px rgba(0,0,0,0.8); /* sombra inferior */
+    border-bottom: 2px solid #ff4c4c; /* línea roja elegante */
 }
 
 .list {
@@ -10,30 +12,53 @@
     justify-content: center;
     gap: 30px;
     font-family: fantasy;
-    color: white;
+    color: #ffffff;
     font-style: italic;
     list-style: none;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.list li {
+    cursor: pointer;
+    transition: color 0.3s ease, text-shadow 0.3s ease;
+}
+
+.list li:hover {
+    color: #ff4c4c;
+    text-shadow: 0 0 8px #ff4c4c;
 }
 
 .menu-btn {
   display: none; /* oculto en PC */
   font-size: 22px;
   background: none;
-  border: none;
-  color: white;
+  border: 2px solid #ff4c4c; /* borde elegante */
+  border-radius: 6px;
+  color: #ffffff;
   cursor: pointer;
+  padding: 6px 10px;
+  transition: background 0.3s ease, box-shadow 0.3s ease;
+}
+
+.menu-btn:hover {
+  background: #ff4c4c;
+  color: #ffffff;
+  box-shadow: 0 0 10px rgba(255, 76, 76, 0.7);
 }
 
 @media (max-width: 520px) {
     .list {
         display: none; /* ocultamos menú en móvil */
         flex-direction: column;
-        background: rgb(30, 30, 30);
+        background: #1e1e1e;
         position: absolute;
         top: 40px;
         right: 0;
         width: 200px;
         border-radius: 8px;
+        box-shadow: 0 4px 12px rgba(0,0,0,0.8);
+        border: 1px solid #333;
     }
 
     .list.show {

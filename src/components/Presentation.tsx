@@ -3,7 +3,7 @@ import "../styles/presentacion.css";
 export const Presentation = () => {
   return (
     <div className="conteiner">
-        <img className="photo" src="assets/foto.jpg" alt="photo" />
+        <img className="photo" src="assets/foto2.png" alt="photo" />
         <div className="personal-info">
             <h1> Jaime Andres Villar Jaramillo</h1>
             <h1 className="profession">INGENIERO DE SISTEMAS</h1>
