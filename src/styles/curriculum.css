@@ -1,0 +1,46 @@
+.CV-container {
+    display: flex;
+    flex-direction: column;   /* imágenes una debajo de la otra */
+    justify-content: center;
+    align-items: center;      /* centrado horizontal */
+    gap: 20px;                /* espacio entre imágenes y botón */
+    min-height: 100vh;
+    background: radial-gradient(circle at 20% 30%, rgba(255, 76, 76, 0.2), transparent 60%),
+                radial-gradient(circle at 80% 70%, rgba(76, 150, 255, 0.2), transparent 60%),
+                #0f0f0f;
+}
+
+.img-cv {
+    margin-bottom: 30px;
+    max-width: 80%;   /* ajusta el tamaño de las imágenes */
+    height: auto;
+    border-radius: 10px;
+}
+
+.cv-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* botón centrado al final */
+  gap: 20px;
+}
+
+.download-btn {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 12px 24px;
+  background-color: #4c96ff;
+  color: white;
+  font-weight: bold;
+  border-radius: 8px;
+  text-decoration: none;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  margin-bottom: 30px; /* espacio inferior */
+  margin-top: 30px;
+}
+
+.download-btn:hover {
+  background-color: #357ae8;
+  transform: scale(1.05);
+}

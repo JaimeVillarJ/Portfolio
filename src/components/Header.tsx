@@ -11,7 +11,7 @@ export const Header = () => {
                     <li><Link to="/">Aplicativos</Link></li>
                     <li><Link to="/certificates">Diploma y Certificaciones</Link></li>
                     <li><Link to="/experience">Experiencia Laboral</Link></li>
-                    <li>Hoja de vida</li>
+                    <li><Link to="/curriculumvitae">Hoja de vida</Link></li>
                 </ul>
                 <button className="menu-btn">☰</button>
             </nav>
