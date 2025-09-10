@@ -3,30 +3,19 @@
         {
             "name" : "futbol",
             "image" : "logo5",
-            "description" : "Proyecto de futbol"
+            "description" : "Pagina web para torneos de futbol",
+            "link" : "https://pagina-de-futbol.vercel.app/"
         },
         {
             "name" : "flappy bird",
             "image" : "flappybird",
-            "description" : "Juego de Flappy Bird"
+            "description" : "Juego de Flappy Bird",
+            "link" : "https://jaimevillarj.github.io/Flappy-bird-con-Phaser/"
         },{
-            "name" : "Tienda de Guitarras",
-            "image" : "guitarras",
-            "description" : "Proyecto tienda de guitarras"
-        },
-        {
-            "name" : "futbol",
-            "image" : "logo5",
-            "description" : "Proyecto de futbol"
-        },
-        {
-            "name" : "flappy bird",
-            "image" : "flappybird",
-            "description" : "Juego de Flappy Bird"
-        },{
-            "name" : "Tienda de Guitarras",
-            "image" : "guitarras",
-            "description" : "Proyecto tienda de guitarras"
+            "name" : "Super mercado",
+            "image" : "foto1",
+            "description" : "Pagina web para supermercado",
+            "link" : "https://mi-tienda-didi.vercel.app/"
         }
     ],
     "certificates" : [
