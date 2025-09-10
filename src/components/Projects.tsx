@@ -10,6 +10,7 @@ export const Projects = () => {
         <h1>APLICATIVOS</h1>
         <p>🌟 Preciona en la aplicacion que deseas ver 🌟</p>
         <p>( Algunos proyectos demoran en cargar los datos, por favor tener paciencia 😅 )</p>
+        <p>( Si desea probar funciones de login por favor comunicarse por correo 😎 )</p>
       </div>
       <div className="cataloge">
         {db.map((item, index) => (
